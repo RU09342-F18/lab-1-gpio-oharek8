@@ -1,3 +1,13 @@
+/*
+* Author: Kevin O'Hare
+* Email: oharek8@students.rowan.edu
+*/
+
+/*
+*Example code was used for the button check
+*MSP430 Microcontroller Basics, by John Davies. Pg. 83
+*/
+
 #include <msp430.h> 
 
 
