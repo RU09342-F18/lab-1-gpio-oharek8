@@ -1,3 +1,8 @@
+/*
+* Author: Kevin O'Hare
+* Email: oharek8@students.rowan.edu
+*/
+
 #include <msp430.h> 
 
 #define BIT0 0x01;
