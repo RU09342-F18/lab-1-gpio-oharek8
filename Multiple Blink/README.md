@@ -1,6 +1,8 @@
-# Multiple Blink
-Now that we have blinked at least 1 LED, what about blinking multiple LEDS at the same time? The minimum that you need to develop is blinking at least two LEDs at two different rates. Although I am not going to give you a speed, you should probably pick a rate which is visible to a standard human. I really hope that you take this further and perform some of the extra work for this part of the lab exercise.
+# Assignment
+The assignment for this portion of the lab was to make two of the development board's LEDs blink at different rates.
 
+# Summary of Code
+This code is similar to the simple blink, but differnt in the fact that we are blink two lights independently. This is done through the use of two counters, one for each LED. When the counter exceeds a limit, say 25000, the LED will toggle and the counter will reset to 0. By using two different counters and two different counter limits, we can blink two separte LEDs at two different rates. If you would like to change the rate the LEDs blink at, simply increase or decrease the counter limit as desired.
 
 # YOU NEED TO CREATE THE FOLLOWING FOLDERS
 * MSP430G2553
